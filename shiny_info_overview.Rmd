@@ -1,0 +1,80 @@
+---
+title: "Shiny Info Overview"
+author: "Sophia Leiker"
+date: "2/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro: 
+
+California is a biodiveristy hotpot. 
+
+"California’s lands span more than 158,000 square miles with over 4,900 lakes and reservoirs, 175 major rivers and streams, and 1,100 miles of coastline. The deserts, mountain ranges, vast valleys, wetlands, woodlands, rivers, estuaries, marine environments, and rangelands and
+agricultural fields of California provide habitats for approximately 650 bird species, 220 mammals, 100 reptiles, 75 amphibians, 70 freshwater fish, 100 marine fish and mammals, and 6,500 taxa of native plants."[(California Biodiversity Initiative, 2018)](https://www.californiabiodiversityinitiative.org/pdf/california-biodiversity-action-plan.pdf)
+
+
+To ensure the health of our state in both the short and long term, it is essential for decision makers ranging from land managers to policy makers to understand the spatial distribution of biodiversity across California.
+
+This **decision support tool** can help guide efforts such as the [California Biodiversity Initiative](https://www.californiabiodiversityinitiative.org/about.html) in protecting the states fauna and flora. 
+
+
+
+## 1. Areas of Conservation Emphasis
+![Areas of Conservation Emphasis (ACE)](https://wildlife.ca.gov/portals/0/Images/BDB/ACE/ACE%20logo.png)
+
+
+The California Department of Fish and Wildlife has developed [Areas of Conservation Emphasis (ACE)](https://wildlife.ca.gov/Data/Analysis/ACE) to help guide and inform conservation priorities in California. 
+
+This effort works to gather spatial data on wildlife, vegetation, and habitats from across the state, and then synthesize this information into thematic maps to help inform discussions on the conservation of biodiversity, habitat connectivity, and climate change resiliency. 
+
+![Areas of Conservation Emphasis](https://wildlife.ca.gov/portals/0/Images/BDB/ACE/ACE_data_structure.jpg)
+
+***
+
+## 2. Species Biodiversity Data
+![](https://wildlife.ca.gov/Portals/0/Images/BDB/ACE/ACE-icon-TerrBio.png)
+
+Areas of Conservation Emphasis (ACE), version 3.0. The California Department of Fish and Wildlifes (CDFW) Areas of Conservation Emphasis (ACE) Species Biodiversity dataset is a summary of the best available information on species biodiversity in California, and is based on species occurrence and distribution information for amphibians, aquatic macroinvertebrates, birds, fish, mammals, plants, and reptiles. 
+
+It synthesizes information from the ACE Terrestrial Biodiversity Summary, which is compiled by hexagon, and the Aquatic Biodiversity Summary, which is compiled by watershed. The biodiversity summary combines three measures of biodiversity [Ace Dataset Fact Sheet](https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=152834&inline)
+
+- **Native species richness**, which represents overall native diversity of all species in the
+state, both common and rare 
+- **Rare species richness**, which represents diversity of rare species
+- **Rrreplaceability**, which is a weighted measure of endemism. The data can be used to view patterns of
+overall species diversity, and identify areas of highest biodiversity, taking into account common,
+rare, and rare endemic species. 
+
+### 2.A State Biodiversity Weight 
+
+The biodiversity variable used for analysis is the **State Biodiversity Rank**. Ranks of 1-5 assigned to the statewide normalized biodiversity values, with all zero values removed and remaining values broken into 5
+quantiles.
+
+The data is normalized so that areas of highest diversity for each taxonomic group contribute equally to the final map (see *Data Sources* section). The attribute table for this dataset includes the final ranks for all ACE datasets, providing an overview of all ACE scores for an area.
+
+
+### 2.B Data Sources
+
+- `Amphibian, bird, mammal, and reptile distribution data`: based on California Wildlife Habitat
+Relationships (CWHR) Predicted Habitat Suitability models for amphibians, birds, mammals, and
+reptiles
+- `Fish distribution data`: based on native fish ranges as mapped in Pisces (Santos et al. 2014,
+https://pisces.ucdavis.edu/). 
+- `Invertebrate distribution data`: based on observation point data. Freshwater macroinvertebrate
+data were extracted from the California Environmental Data Exchange Network database (CEDEN,
+accessed September 15, 2017).
+- `Rare species location data`: derived from available documented, mapped species occurrences.
+Sources included “presumed extant” California Natural Diversity Database (CNDDB; CDFW 2017)
+records (excluding extirpated and possibly extirpated records); additional museum records from the
+California Academy of Sciences, the Museum of Vertebrate Zoology at UC Berkeley; and additional
+datasets from the CDFW BIOS online map viewer (https://www.wildlife.ca.gov/Data/BIOS)
+
+***
+
+For more details and a full list of ACE 3 Factsheets, see the [ACE3 Technical Report](https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=24326&inline)
+
+Data Contact Information: Melanie Gogol-Prokurat, California Department of Fish and Wildlife (CDFW), Biogeographic Data Branch Division, Melanie.Gogol-Prokurat@wildlife.ca.gov

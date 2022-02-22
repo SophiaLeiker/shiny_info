@@ -80,6 +80,9 @@ datasets from the CDFW BIOS online map viewer (https://www.wildlife.ca.gov/Data/
 
 ***
 
+## Data Citation: 
+Species Biodiversity - ACE [ds2769], Publication date 2021-08-1300:00:00 https://map.dfg.ca.gov/metadata/ds2769.html?5.84.09
+
 For more details and a full list of ACE 3 Factsheets, see the [ACE3 Technical Report](https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=24326&inline)
 
 Data Contact Information: Melanie Gogol-Prokurat, California Department of Fish and Wildlife (CDFW), Biogeographic Data Branch Division, Melanie.Gogol-Prokurat@wildlife.ca.gov
@@ -99,4 +102,5 @@ Data Contact Information: Melanie Gogol-Prokurat, California Department of Fish 
 ![World Atlas: Biodiversity Loss](https://www.worldatlas.com/r/w960-q80/upload/2d/f8/c6/artboard-52.png)
 
 ![ G-LiHT team captured this aerial image of El Yunque National Forest](https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/c3eb6f29-d75c-41a7-9d18-a3704838909a/Rendition/low-res/Content/Public)
+
 

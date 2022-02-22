@@ -9,6 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Pick a redwood photo
+
+![Redwood Forest](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2021%2F05%2F24%2Fskywalk-looking-up-REDWOODSYWALK0521.jpg)
+![Redwood Forest](https://www.tripsavvy.com/thmb/uwVrxUev8IFUrtDFvf13Lp_G5_w=/2700x1800/filters:fill(auto,1)/DSCF0636-81718143d0ec4dcba462a03bb3f45a4a.jpg)
+
 ## Intro: 
 
 California is a biodiveristy hotpot. 
@@ -19,9 +24,9 @@ agricultural fields of California provide habitats for approximately 650 bird sp
 
 To ensure the health of our state in both the short and long term, it is essential for decision makers ranging from land managers to policy makers to understand the spatial distribution of biodiversity across California.
 
-This **decision support tool** can help guide efforts such as the [California Biodiversity Initiative](https://www.californiabiodiversityinitiative.org/about.html) in protecting the states fauna and flora. 
+This **decision support tool** can help guide efforts such as the [California Biodiversity Initiative](https://www.californiabiodiversityinitiative.org/about.html) in protecting the states fauna and flora. It can be used to identify areas to prioritize for conservation, or highlight areas that may be threatened due to proposed human driven disruption. It could also be used to visualize areas with high levels of biodiversity which may drive decisions around land acquisition.
 
-
+***
 
 ## 1. Areas of Conservation Emphasis
 ![Areas of Conservation Emphasis (ACE)](https://wildlife.ca.gov/portals/0/Images/BDB/ACE/ACE%20logo.png)
@@ -31,7 +36,7 @@ The California Department of Fish and Wildlife has developed [Areas of Conservat
 
 This effort works to gather spatial data on wildlife, vegetation, and habitats from across the state, and then synthesize this information into thematic maps to help inform discussions on the conservation of biodiversity, habitat connectivity, and climate change resiliency. 
 
-![Areas of Conservation Emphasis](https://wildlife.ca.gov/portals/0/Images/BDB/ACE/ACE_data_structure.jpg)
+![](https://wildlife.ca.gov/portals/0/Images/BDB/ACE/ACE_data_structure.jpg)
 
 ***
 
@@ -49,7 +54,7 @@ state, both common and rare
 overall species diversity, and identify areas of highest biodiversity, taking into account common,
 rare, and rare endemic species. 
 
-### 2.A State Biodiversity Weight 
+### 2.A State Biodiversity Rank
 
 The biodiversity variable used for analysis is the **State Biodiversity Rank**. Ranks of 1-5 assigned to the statewide normalized biodiversity values, with all zero values removed and remaining values broken into 5
 quantiles.
@@ -78,3 +83,20 @@ datasets from the CDFW BIOS online map viewer (https://www.wildlife.ca.gov/Data/
 For more details and a full list of ACE 3 Factsheets, see the [ACE3 Technical Report](https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=24326&inline)
 
 Data Contact Information: Melanie Gogol-Prokurat, California Department of Fish and Wildlife (CDFW), Biogeographic Data Branch Division, Melanie.Gogol-Prokurat@wildlife.ca.gov
+
+
+***
+
+### Random Images we can use if we need
+
+![World Atlas](https://www.worldatlas.com/r/w1024-q80/upload/3c/ed/21/artboard-10.png)
+
+![World Atlas: Biodiversity](https://www.worldatlas.com/r/w960-q80/upload/ea/9e/6c/biodiversity-01.png)
+
+![UNESCO Biodiversity](https://en.unesco.org/sites/default/files/cover_biodiversity_project_0.jpg)
+
+
+![World Atlas: Biodiversity Loss](https://www.worldatlas.com/r/w960-q80/upload/2d/f8/c6/artboard-52.png)
+
+![ G-LiHT team captured this aerial image of El Yunque National Forest](https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/c3eb6f29-d75c-41a7-9d18-a3704838909a/Rendition/low-res/Content/Public)
+
